@@ -163,7 +163,7 @@ proves that **when** you acquire customers matters as much as
 
 ## 📊 Power BI Dashboard Preview
 
-![Dashboard Preview](outputs/dasboard_preview.png)
+![Dashboard Preview](outputs/dashboard_preview.png)
 
 ---
 
@@ -199,7 +199,7 @@ D2C-Cohort-Retention-Analysis/
 │   └── dashboard_preview.png
 │
 ├── 📂 dashboard/
-│   └── cohort_analysis.pbix
+│   └── d2c_dashboard-preview.pbix
 │
 └── README.md
 ```
