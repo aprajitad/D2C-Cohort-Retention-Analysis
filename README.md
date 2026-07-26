@@ -199,7 +199,7 @@ D2C-Cohort-Retention-Analysis/
 │   └── dashboard_preview.png
 │
 ├── 📂 dashboard/
-│   └── d2c_retention_dashboard.pbix
+│   └── cohort_analysis.pbix
 │
 └── README.md
 ```
