@@ -61,7 +61,7 @@ on simulated Indian D2C order data modelled around brands like
 
 ## 📊 Power BI Dashboard Preview
 
-![Dashboard Preview](outputs/dashboard_preview.png)
+![Dashboard Preview](outputs/dasboard_preview.png)
 
 ---
 
