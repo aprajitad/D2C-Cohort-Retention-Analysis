@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
   <img src="https://img.shields.io/badge/Seaborn-Visualisation-4C72B0?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -58,7 +59,26 @@ on simulated Indian D2C order data modelled around brands like
 
 ---
 
-## 📊 Key Findings
+## 📊 Power BI Dashboard Preview
+
+![Dashboard Preview](outputs/dashboard_preview.png)
+
+---
+
+## 📈 Key Metrics at a Glance
+
+| Metric | Value |
+|--------|-------|
+| Total Customers | 2,761 |
+| Total Orders | 7,688 |
+| Total Revenue | ₹37,83,924 |
+| Avg Order Value | ₹492 |
+| Repeat Purchase Rate | 79.6% |
+| Subscriber Revenue Share | 25.4% |
+
+---
+
+## 🔍 Key Findings
 
 ### 1. 🔴 90% of customers are lost in Month 1
 > **Average Month-1 Retention = 9.8%**
@@ -77,6 +97,7 @@ when they finish the product — typical behaviour for consumables.
 ---
 
 ### 3. ⚡ Cohort quality varies by 10x
+
 | Cohort | Month-1 Retention |
 |--------|------------------|
 | 🏆 Best — September 2024 | **27.9%** |
@@ -91,7 +112,7 @@ when customers were acquired.
 > **Instagram Ads = 35.4% of all orders**
 
 Heavy dependence on one platform is a significant business risk
-if ad costs rise or algorithm changes.
+if ad costs rise or the algorithm changes.
 
 ---
 
@@ -104,9 +125,17 @@ Subscriber vs non-subscriber avg order value is almost identical
 ---
 
 ### 6. 🔄 Strong long-term repeat behaviour
-> **Repeat Purchase Rate = 78.7%**
+> **Repeat Purchase Rate = 79.6%**
 
-78.7% of customers purchased more than once over 2 years.
+Nearly 80% of customers purchased more than once over 2 years —
+strong long-term engagement signal.
+
+---
+
+### 7. 🏙️ Mumbai and Bangalore drive the most revenue
+Mumbai and Bangalore together account for the largest share
+of total revenue — key cities for D2C brand expansion and
+targeted marketing campaigns.
 
 ---
 
@@ -118,10 +147,27 @@ Subscriber vs non-subscriber avg order value is almost identical
 | 2 | Investigate & replicate September 2024 campaign | 3x retention potential |
 | 3 | Invest in Referral & Organic Search channels | Reduce channel risk |
 | 4 | Add 10–15% exclusive subscriber discounts | Increase subscriber LTV |
+| 5 | Focus expansion on Mumbai and Bangalore | Highest revenue cities |
 
 ---
 
-## 📈 Heatmap Previews
+## 🔍 Conclusions
+
+This analysis reveals that Indian D2C brands face a critical
+retention problem — not an acquisition problem.
+
+With 90% of customers lost after Month 1, the priority should be:
+1. Converting first-time buyers into second-time buyers
+2. Understanding which acquisition channels bring loyal customers
+3. Building subscription programmes with real incentives
+
+The 10x difference between best and worst cohort retention
+proves that **when** you acquire customers matters as much as
+**how many** you acquire.
+
+---
+
+## 📉 Heatmap Previews
 
 ### Customer Retention Rate by Cohort
 ![Retention Heatmap](outputs/cohort_retention_heatmap.png)
@@ -149,10 +195,11 @@ D2C-Cohort-Retention-Analysis/
 │
 ├── 📂 outputs/
 │   ├── cohort_retention_heatmap.png
-│   └── cohort_revenue_heatmap.png
+│   ├── cohort_revenue_heatmap.png
+│   └── dashboard_preview.png
 │
 ├── 📂 dashboard/
-│   └── d2c_dashboard.pbix
+│   └── d2c_retention_dashboard.pbix
 │
 └── README.md
 ```
@@ -160,8 +207,6 @@ D2C-Cohort-Retention-Analysis/
 ---
 
 ## 🎯 Target Startups
-
-This analysis is directly applicable to:
 
 | Brand | Category |
 |-------|---------|
@@ -178,3 +223,10 @@ This analysis is directly applicable to:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dixitaprajita/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aprajitad)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dixitaprajita42@gmail.com)
+
+---
+
+*Dataset simulated using Python to reflect realistic Indian D2C market
+patterns. City distribution, product mix, pricing, and acquisition
+channels based on publicly available information about the Indian D2C market.*
