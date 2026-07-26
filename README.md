@@ -59,12 +59,6 @@ on simulated Indian D2C order data modelled around brands like
 
 ---
 
-## 📊 Power BI Dashboard Preview
-
-![Dashboard Preview](outputs/dasboard_preview.png)
-
----
-
 ## 📈 Key Metrics at a Glance
 
 | Metric | Value |
@@ -164,6 +158,12 @@ With 90% of customers lost after Month 1, the priority should be:
 The 10x difference between best and worst cohort retention
 proves that **when** you acquire customers matters as much as
 **how many** you acquire.
+
+---
+
+## 📊 Power BI Dashboard Preview
+
+![Dashboard Preview](outputs/dasboard_preview.png)
 
 ---
 
